@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do List</title>
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h1>Minha Lista de Tarefas</h1>
+        <button class="mode">
+          <ion-icon name="moon-outline" class="icon"></ion-icon>
+        </button>
+      </header>
+
+      <search>
+        <div class="pesquisa">
+          <input
+            type="text"
+            placeholder="Adicionar tarefa..."
+            class="input-tarefa"
+          />
+          <button class="adicionar">+ Adicionar</button>
+        </div>
+
+        <div class="pre-lista">
+          <div class="filtro">
+            <button class="btn-filtro todas marcada">Todas</button>
+            <button class="btn-filtro pendentes">Pendentes</button>
+            <button class="btn-filtro concluidas">Concluídas</button>
+          </div>
+
+          <div class="area-pend desk">
+            <span class="qtd-pend"></span>Tarefas Pendentes
+          </div>
+        </div>
+      </search>
+
+      <main>
+        <div class="lista">
+          <ul class="tarefas"></ul>
+        </div>
+      </main>
+
+      <footer>
+        <button class="del-conc">Limpar Concluídas</button>
+
+        <div class="area-pend mobile">
+          <span class="qtd-pend"></span>Tarefas Pendentes
+        </div>
+      </footer>
+    </div>
+
+    <script
+      type="module"
+      src=" https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js "
+    ></script>
+    <script
+      nomodule
+      src=" https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js "
+    ></script>
+
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
