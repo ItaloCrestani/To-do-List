@@ -22,4 +22,4 @@ O projeto permite gerenciar tarefas com persistência de dados, filtros e interf
 
 ## 💻 Projeto
 
-- [Acesse o projeto finalizado, online](https://italocrestani.github.io/projeto/)
+- [Acesse o projeto finalizado, online](https://italocrestani.github.io/To-do-List/)
