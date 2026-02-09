@@ -20,7 +20,7 @@ O projeto permite gerenciar tarefas com persistência de dados, filtros e interf
 - 🌗 Modo claro / escuro
 - 📱 Interface responsiva
 
-📌 Objetivo do projeto
+## 📌 Objetivo do projeto
 
 Este projeto foi desenvolvido com foco em praticar JavaScript puro, entender a base de aplicações front-end e servir como preparação para frameworks como React.
 
